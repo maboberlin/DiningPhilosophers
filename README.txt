@@ -1,5 +1,7 @@
 "The Dining Club of Philosophers"
 
+------------------------------------------------------------------------
+
 Copyright (C) 2016 Matthias Boesinger (boesingermatthias@gmail.com).
 
 Licensed under GNU General Public License 3.0 or later.

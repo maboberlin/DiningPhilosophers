@@ -10,14 +10,14 @@ Some rights reserved. See COPYING, AUTHORS.
 
 ------------------------------------------------------------------------
 
-"Dining Club of Philosophers" is an implementation of dijkstras 'dining philosophers problem' as a gui-application.
+"Dining Club of Philosophers" is an implementation of Dijkstras 'dining philosophers problem' as a gui-application.
 
 see: 
 https://en.wikipedia.org/wiki/Dining_philosophers_problem
 
 An executable file (DiningPhilosophers.exe) can be found at /target/DiningPhilosophers.exe.
 
-An description of the application is given by the class-documentations of the classes:
+A description of the application is given by the class-documentations of the classes:
 - PhilosopherFrame (central class for building the system)
 - ModelPhil (model)
 - ViewPhil (view)
@@ -30,5 +30,5 @@ The application offers the following options:
 If the mode has been set the total philosophizing time of each philosopher is set in a ranking.
 In this ranking each philosopher has a distinct designation.
 
-... I hope you get the message of the designations of the different modes even if you didn't study philosophy ;)
+... I hope you can grasp the message of the designations of the different modes even if you didn't study philosophy ;)
 

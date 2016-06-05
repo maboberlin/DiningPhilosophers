@@ -280,8 +280,8 @@ public class ViewPhil extends JPanel implements PhilNumberSetListener, ModelList
 	@Override
 	public void philStateChanged(PhilChangedEvent e) {
 		toUpdate = true;
-		philEvt = e;
 		if (SwingUtilities.isEventDispatchThread()) {
+			philEvt = e;
 			paintImmediately(0, 0, W_WIDTH, W_HEIGHT);
 		}
 	}
@@ -289,8 +289,8 @@ public class ViewPhil extends JPanel implements PhilNumberSetListener, ModelList
 	@Override
 	public void sticksChanged(SticksChangedEvent e) {
 		toUpdate = true;
-		sticksEvt = e;
 		if (SwingUtilities.isEventDispatchThread()) {
+			sticksEvt = e;
 			paintImmediately(0, 0, W_WIDTH, W_HEIGHT);
 		}
 	}
